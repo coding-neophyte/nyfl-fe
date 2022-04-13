@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Charm:wght@400;700&family=Cookie&family=Covered+By+Your+Grace&family=Indie+Flower&family=Norican&family=Nothing+You+Could+Do&display=swap');
+
+.App {
+  text-align: center;
+}
+html{
+  background-color: black;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.form {
+ display: flex;
+ flex-direction: column;
+ width: 25%;
+}
+
+fieldset{
+  width: 35%;
+}
+
+.form-container{
+display: flex;
+justify-content: center;
+align-content: center;
+margin-bottom: 10px;
+}
+
+h1{
+  text-align: center;
+}
+
+img {
+  height: 500px;
+  width: 400px;
+}
+
+.image-container{
+  display: flex;
+  justify-content: center;
+}
+
+
+button{
+  height: 55px;
+  width: 100%;
+  background-color: rgb(109, 38, 163);
+  border-radius: 5px;
+  border: none;
+  color:white;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Architects Daughter', cursive;
+
+
+}
+
+button:hover{
+  background-color: rgb(25, 212, 50);
+}
+
+input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 15%;
+}
+
+.container{
+  border-radius: 10px;
+
+  padding: 20px;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.ig{
+  height: 40px;
+  width: 35px;
+}
+
+
+.follow{
+  font-family: 'Architects Daughter', cursive;
+  font-size: 25px;
+  color: rgba(210, 14, 236, 0.84);
+  text-align: center;
+}
+
+form label{
+  font-family: 'Architects Daughter', cursive;
+  color: rgba(255, 137, 3, 0.866);
+  font-size: 35px;
+}
+
+.copy{
+  text-align: center;
+  font-family: 'Square Peg', cursive;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin-top: 1px;
+
+}
+.sign{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 25px;
+  color: rgb(38, 163, 55);
+}
+
+.copy2{
+  text-align: center;
+  font-family: 'Square Peg', cursive;
+  font-size: 60px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin-top: 1px;
+}
